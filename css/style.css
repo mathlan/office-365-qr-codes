@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");*/
 
 body {
   background-image: url();
@@ -23,8 +23,8 @@ a {
 }
 
 h1 {
-  font-family: "Architects Daughter", cursive;
-  font-size: 7vh;
+  font-family: "Arial", cursive;
+  font-size: 5vh;
   color: #f33b00;
   text-shadow: 1px 0 20px #ffffff;
 }
@@ -63,6 +63,14 @@ th {
 
 .h1-sharepoint {
   color: #178B90;
+}
+
+.h1-outlook {
+  color: #0073C7;
+}
+
+.h1-teams {
+  color: #464EB7;
 }
 
 .p-vertical-align {
@@ -133,6 +141,14 @@ th {
 
 .wrap-sharepoint {
   border: 15px solid #178B90;
+}
+
+.wrap-outlook {
+  border: 15px solid #0073C7;
+}
+
+.wrap-teams {
+  border: 15px solid #464EB7;
 }
 
 .p-title {
