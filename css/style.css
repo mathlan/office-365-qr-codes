@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+body {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-position: absolute;
+  background-position-x: 50%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Architects Daughter", cursive;
+  font-size: 7vh;
+  color: #f33b00;
+  text-shadow: 1px 0 20px #ffffff;
+}
+
+li {
+  font-family: "Architects Daughter", cursive;
+  color: black;
+  font-size: 20px;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+.h1-todo {
+  color: #2f90e8;
+}
+
+.h1-planner {
+  color: #077d3f;
+}
+
+.h1-onenote {
+  color: #7411A7;
+}
+
+.h1-onedrive {
+  color: #0079D5;
+}
+
+.h1-sharepoint {
+  color: #178B90;
+}
+
+.p-vertical-align {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Customed */
+
+.text-centered {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.padding-h1 {
+  padding-top: 5vh;
+}
+
+.scoping {
+  height: 500px;
+  width: 100%;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  background-size: 20%;
+  position: fixed;
+  top: 55vh;
+  left: 79vw;
+  z-index: 2;
+}
+
+.scoping:hover {
+  top: 50vh;
+  left: 75vw;
+}
+.wrap {
+  background-color: rgb(255, 255, 255, 0.95);
+  border: 15px solid #f33b00;
+  padding: 3vh 4vw;
+  margin: 5vh 7vw 0 7vw;
+}
+
+.wrap-in {
+  background-color: rgb(255, 255, 255, 0.9);
+  border: 5px solid rgb(26, 107, 119);
+  padding: 2vh 0;
+}
+
+.wrap-todo {
+  border: 15px solid #2f90e8;
+}
+
+.wrap-planner {
+  border: 15px solid #077d3f;
+}
+
+.wrap-onenote {
+  border: 15px solid #7411A7;
+}
+
+.wrap-onedrive {
+  border: 15px solid #0079D5;
+}
+
+.wrap-sharepoint {
+  border: 15px solid #178B90;
+}
+
+.p-title {
+  margin-top: 0.2em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.boxes {
+  display: flex;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.user-img {
+  position: relative;
+  margin: auto;
+  width: 170px;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.box-90per {
+  display: inline-block;
+  width: 90%;
+}
+
+.box-45per {
+  display: inline-block;
+  width: 45%;
+}
+
+.box-40per {
+  display: inline-block;
+  width: 40%;
+}
+
+.box-25per {
+  display: inline-block;
+  width: 25%;
+}
+
+.box-20per {
+  display: inline-block;
+  width: 20%;
+}
+
+.box-10per {
+  display: inline-block;
+  width: 10%;
+}
+
+.box-5per {
+  display: inline-block;
+  width: 5%;
+}
+
+.pdg-footer {
+  padding-top: 10vh;
+}
